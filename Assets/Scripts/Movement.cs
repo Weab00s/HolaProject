@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
+    
     Gun[] guns;
-
+    private bool isDead;
     bool moveUp;
     bool moveDown;
     bool moveLeft;
@@ -99,21 +99,26 @@ public class Movement : MonoBehaviour
         transform.position = pos;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
         
 
 
 
 
+        //if (collision.transform.tag == "Enemy")
+        //{
+            //Debug.Log("Game Over");
+        //}
 
-
-        Destructable destructable = collision.GetComponent<Destructable>();
-        if (destructable != null)
-        {
-            Destroy(gameObject);
+        //Destructable destructable = collision.GetComponent<Destructable>();
+        //if (destructable != null)
+        //{
+           
+            //Destroy(gameObject);
             
-        }
-    }
+        //}
+       
+    //}
 
 }
