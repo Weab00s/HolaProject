@@ -80,21 +80,21 @@ public class Movement : MonoBehaviour
         }
 
         pos += move;
-        if (pos.x <= 0.75f)
+        if (pos.x <= -26.26f)
         {
-            pos.x = 0.75f;
+            pos.x = -26.26f;
         }
-        if (pos.x >= 7.66f)
+        if (pos.x >= 315.3f)
         {
-            pos.x = 7.66f;
+            pos.x = 315.3f;
         }
-        if (pos.y <= 1.5)
+        if (pos.y <= -7.01)
         {
-            pos.y = 1.5f;
+            pos.y = -7.01f;
         }
-        if (pos.y >= 5.4)
+        if (pos.y >= 2.75)
         {
-            pos.y = 5.4f;
+            pos.y = 2.75f;
         }
         transform.position = pos;
     }
