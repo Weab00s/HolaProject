@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: 'Medium cloud '
+  - name: Medium cloud
     originalName: 
     pivot: {x: 0.5555556, y: -0.125}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 27
       height: 8
-    spriteID: 0d01b4783a9b5ad439ca2e258196eff4
+    spriteID: 293e2a31c829d8d43afc60508c69e21e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,13 +144,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1514506668
-    name: 'Medium cloud '
+    guid: 22669132
+    name: Medium cloud
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: 'Medium cloud '
+    - name: Medium cloud
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 1
         width: 27
         height: 8
-      spriteId: 0d01b4783a9b5ad439ca2e258196eff4
+      spriteId: 293e2a31c829d8d43afc60508c69e21e
     linkedCells: []
     parentIndex: -1
   platformSettings: []
