@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b182f229c5feb6547ab21f223ca488f1
+guid: 9e6760f4c317c2043824ab5005574ddc
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: blackcat
+  - name: backgroundgamejam
     originalName: 
-    pivot: {x: 0.71621627, y: -0.13043478}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 37
-      height: 46
-    spriteID: c6d494f6f7672af48a6c023b44e9bf05
+      width: 4673
+      height: 1224
+    spriteID: 7f929d568721a18499b21425e6d2b79a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,25 +144,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1627891495
-    name: blackcat
+    guid: -2015735476
+    name: backgroundgamejam
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: blackcat
+    - name: backgroundgamejam
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 2
-        y: 6
-        width: 37
-        height: 46
-      spriteId: c6d494f6f7672af48a6c023b44e9bf05
+        x: 0
+        y: 0
+        width: 4673
+        height: 1224
+      spriteId: 7f929d568721a18499b21425e6d2b79a
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 57, y: 80}
+  canvasSize: {x: 4673, y: 1224}

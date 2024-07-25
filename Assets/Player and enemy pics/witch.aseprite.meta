@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: witch
     originalName: 
-    pivot: {x: 1.11, y: -1.3035713}
+    pivot: {x: 1.11, y: -1.2807018}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -131,7 +131,7 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 50
-      height: 56
+      height: 57
     spriteID: 85e8a2e5d5fcee34f9cc454db6dd605e
     spriteBone: []
     spriteOutline: []
@@ -157,7 +157,7 @@ ScriptedImporter:
         x: 8
         y: 73
         width: 50
-        height: 56
+        height: 57
       spriteId: 85e8a2e5d5fcee34f9cc454db6dd605e
     linkedCells: []
     parentIndex: -1
