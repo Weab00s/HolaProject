@@ -1547,6 +1547,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3323395620612459050, guid: f6bd606e8cfad57428d76f8b8d58a30e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1376035753}
+    - targetCorrespondingSourceObject: {fileID: 3323395620612459050, guid: f6bd606e8cfad57428d76f8b8d58a30e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1376035756}
   m_SourcePrefab: {fileID: 100100000, guid: f6bd606e8cfad57428d76f8b8d58a30e, type: 3}
 --- !u!4 &762046671 stripped
 Transform:
@@ -2432,6 +2435,14 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!81 &1376035756
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702199723}
+  m_Enabled: 1
 --- !u!4 &1382803208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 9e6760f4c317c2043824ab5005574ddc, type: 3}
