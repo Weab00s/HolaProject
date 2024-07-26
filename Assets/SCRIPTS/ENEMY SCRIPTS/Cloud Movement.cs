@@ -11,6 +11,6 @@ public class CloudMovement : MonoBehaviour
         // Move the cloud to the left
         transform.Translate(Vector3.left * speed * Time.deltaTime);
 
-        // Reset the cloud's position when it goes off scre
+      
     }
 }
