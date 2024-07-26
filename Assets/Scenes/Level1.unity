@@ -413,7 +413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: b182f229c5feb6547ab21f223ca488f1, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: b182f229c5feb6547ab21f223ca488f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -638,6 +638,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5035901519463385133}
   - {fileID: 5944758030255695956}
   - {fileID: 1106398864}
   m_Father: {fileID: 370492976}
@@ -2003,6 +2004,10 @@ PrefabInstance:
     - target: {fileID: 4338937809783961402, guid: f6bd606e8cfad57428d76f8b8d58a30e, type: 3}
       propertyPath: m_DefaultControlScheme
       value: Keyboard&Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003268338557455782, guid: f6bd606e8cfad57428d76f8b8d58a30e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9061483496389401804, guid: f6bd606e8cfad57428d76f8b8d58a30e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4426,11 +4431,11 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.605
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 60
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 7
@@ -5794,7 +5799,7 @@ Transform:
   m_GameObject: {fileID: 7306343633647763085}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 240.79999, y: -3.1400003, z: 0}
+  m_LocalPosition: {x: 257.8793, y: 0.47607356, z: -0.02464216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5804,7 +5809,7 @@ Transform:
   - {fileID: 1021965629}
   - {fileID: 1914666659}
   - {fileID: 54859082}
-  m_Father: {fileID: 5944758030255695956}
+  m_Father: {fileID: 269474009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5206565039968225820
 PrefabInstance:
@@ -6176,7 +6181,6 @@ Transform:
   - {fileID: 383649266}
   - {fileID: 1129796984}
   - {fileID: 2111167568}
-  - {fileID: 5035901519463385133}
   m_Father: {fileID: 269474009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6410220281615945551
